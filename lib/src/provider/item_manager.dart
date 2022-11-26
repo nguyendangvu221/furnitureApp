@@ -16,4 +16,7 @@ class ItemManager extends ChangeNotifier {
     items.remove(item);
     notifyListeners();
   }
+  void updateItem(Item item, bool isFinish, int index){
+    
+  }
 }
